@@ -1,0 +1,63 @@
+.navbar-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 0.8rem;
+    padding: 0.7rem 1.7rem;
+    background-color: rgba(3, 3, 3, 0.914);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+nav a{
+    display: flex;
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    transform: scale(1.3);
+}
+
+nav a.active{
+    text-decoration: underline;
+} 
+
+.logo {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color: rgba(159, 53, 94, 0.77);
+    position: absolute;
+    left: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .navbar-header {
+        /* display: flex;
+        flex-direction: row;
+        gap: 0.1px;
+        justify-content: end;
+        align-items: end; */
+        padding: 0.8rem 0rem;
+        font-size: 8px;
+    }
+    nav a{
+        padding: 7px;
+        font-size: 8px;
+    }
+
+    .logo {
+        font-size: 14px;
+        position: absolute;
+    }
+    
+}

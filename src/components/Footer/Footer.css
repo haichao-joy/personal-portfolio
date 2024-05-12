@@ -1,0 +1,120 @@
+footer {
+    padding: 160px 0 100px 0;
+    background: rgba(8, 8, 8, 0.948);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer a{
+    /* color: var(--color-bg); */
+    color: #96074fe5;
+    
+}
+
+.footer-social-apps {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+}
+
+.footer-social-apps a{
+    background: #96074fe5;
+    color: white;
+    padding: 0.9rem;
+    border-radius: 1.5rem;
+    display: flex;
+    border: 1px solid transparent;
+    
+    
+}
+
+.footer-social-apps a:hover{
+    background: transparent;
+    color: #96074fe5;
+    border-color: #96074fe5;
+}
+
+.footer-copyright{
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 0.742);
+    /* color: #96074fe5; */
+    font-size: large;
+}
+
+.footer-small-text {
+    font-style: italic;
+    font-size: small;
+}
+
+.footer-email {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-resume {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email-icon {
+    font-size: 2.0rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+.email-address {
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.email-icon:hover{
+    background: transparent;
+    color: #96074fe5;
+    border-color: #96074fe5;
+    cursor: pointer;
+}
+
+.resume-link {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+.resume-icon {
+    font-size: 2.0rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+.resume-icon:hover{
+    background: transparent;
+    color: #96074fe5;
+    border-color: #96074fe5;
+    cursor: pointer;
+}
+
+.footer-logo {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color: rgba(159, 53, 94, 0.77);
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 4rem;
+}

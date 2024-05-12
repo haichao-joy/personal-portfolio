@@ -1,0 +1,149 @@
+#skills {
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url("https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.skills-title {
+    margin-top: 55px;
+    padding: 55px;
+    font-size: 45px;
+	font-weight: 700;
+    text-align: center;
+}
+
+.skills__container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skills__container > div{
+
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.skills__container > div:hover{
+
+    /* background: transparent; */
+    background-color: #96074e6b;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.skills__container > div h3{
+
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.skills__content{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    row-gap: 2rem;
+}
+
+.skills__details{
+
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.skills__details-icon{
+
+    margin-top: 6px;
+    /* color: var(--color-primary); */
+    color: #96074fe5;
+}
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    .skills__container{
+
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container > div{
+
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills__content{
+
+        padding: 1rem;
+    }
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+/* @media screen and (max-width: 600px) {
+
+    .skills__container{
+
+        gap: 1rem;
+    }
+
+    .sklls_container > div{
+
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+
+    .skills__container {
+        margin: 10px;
+    }
+
+    .skills-title {
+        font-size: 15px;
+    }
+
+    .skills__container {
+        font-size: 10px;
+    }
+
+    .skills__container > div{
+        padding: 2.2rem 4.2rem;
+        margin: 5px;
+    }
+
+    .skills__container > div h3{
+
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .skills__content{
+    
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        gap: 1rem;
+        row-gap: 1rem;
+        /* font-size: 10px; */
+    }
+
+    /* .skills__details {
+        margin-left: 0px;
+        padding: 0px 0px;
+    } */
+
+    .skills__details > div h4 {
+        font-size: 10px;
+    }
+}

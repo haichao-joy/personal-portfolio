@@ -1,0 +1,95 @@
+.home-aboutme {
+    margin-top: 0;
+    padding: 260px 0 200px 0;
+    background-image: url("/src/assets/homeBackground.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .container {
+    width: 100%;
+    
+} */
+
+.tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(183, 22, 84, 0.597) -5.91%, rgba(76, 76, 76, 0.42) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.936);
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+
+.home-image {
+    animation: updown 3s linear infinite;
+    border-radius: 50%;
+    margin-left: 300px;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid rgba(159, 53, 94, 0.77);
+}
+
+.resume-connect {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.resume-btn, .connect-me-btn {
+    background-color: rgba(159, 53, 94, 0.77);
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.r-btn, .connect-btn {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .home-image {
+        margin-left: 140px;
+    }
+}
