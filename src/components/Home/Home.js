@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import './Home.css';
-import resume from '../../assets/Resume_HaichaoYang.pdf';
+//import resume from '../../assets/Resume_HaichaoYang.pdf';
 
 function Home() {
     const toRotate = [ "Web Developer", "UI/UX Designer", "Software Engineer", "Frontend Developer"];
@@ -68,7 +68,7 @@ function Home() {
                       I'm currently looking for any internship opportunity in related CS fields for the summer 2025.
                       Please feel free to contact me if you think I would be a potential fit!</p>
                     <div className="resume-connect">
-                      <button className='resume-btn'><a href={resume} download className='r-btn'>Download My Resume</a></button>
+                      {/* <button className='resume-btn'><a href={resume} download className='r-btn'>Download My Resume</a></button> */}
                       <button className='connect-me-btn'><a href="#footer" className='connect-btn'>Connect with Me</a></button>
                     </div>
                 </div>}
