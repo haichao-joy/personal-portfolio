@@ -27,6 +27,12 @@ const Experiences = () => {
 
   const educationExperiences = [
     {
+      school: "Northeastern University",
+      degree: "Master of Science in Computer Science",
+      duration: "Sep 2024 - current",
+      description: "GPA: 4.0/4.0\nCourses: Algorithms, Database Management Systems, Programming Design Paradigm, Fundamentals of Cloud Computing"
+    },
+    {
       school: "Boston University",
       degree: "Master of Science in Software Development",
       duration: "Jan 2024 - May 2024",

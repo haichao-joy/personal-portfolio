@@ -61,7 +61,7 @@ function Home() {
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hi! I'm Haichao Yang`} 
                     <div className="txt-rotate" dataperiod='1000' data-rotate='["Web Developer", "UI/UX Designer", "Software Engineer", "Frontend Developer"]'><span className="wrap">{text}</span></div></h1>
-                    <p>I'm a graduate student studying computer science in MSCS program at Northeastern University Seattle Campus. 
+                    <p>I'm a masters' student studying computer science in MSCS program at Northeastern University Seattle Campus. 
                       I got my Bachelor of Science degree in Computer Science from Oregon State University. I'm enthusiastic in the tech area, and I'm a dedicated problem solver, good communicator as well as a responsible team worker. I enjoy exploring new stuff, adapt to new things, and I like applying all my knowledge, skills and available resources to take any challenge and resolve it. 
                       I have a few project experiences as well as internship experiences during my undergraduate program.
                       I'm ready for delving deeper into the tech area to learn more stuff, get more hands on practice or experiences, and make impactful contributions to the tech field.
