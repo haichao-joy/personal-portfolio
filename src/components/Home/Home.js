@@ -6,7 +6,7 @@ import './Home.css';
 //import resume from '../../assets/Resume_HaichaoYang.pdf';
 
 function Home() {
-    const toRotate = [ "Web Developer", "UI/UX Designer", "Software Engineer", "Frontend Developer"];
+    const toRotate = [ "Full-stack Developer", "Web Developer", "UI/UX Designer", "Software Engineer", "Frontend Developer"];
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -61,12 +61,7 @@ function Home() {
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hi! I'm Haichao Yang`} 
                     <div className="txt-rotate" dataperiod='1000' data-rotate='["Web Developer", "UI/UX Designer", "Software Engineer", "Frontend Developer"]'><span className="wrap">{text}</span></div></h1>
-                    <p>I'm a masters' student studying computer science in MSCS program at Northeastern University Seattle Campus. 
-                      I got my Bachelor of Science degree in Computer Science from Oregon State University. I'm enthusiastic in the tech area, and I'm a dedicated problem solver, good communicator as well as a responsible team worker. I enjoy exploring new stuff, adapt to new things, and I like applying all my knowledge, skills and available resources to take any challenge and resolve it. 
-                      I have a few project experiences as well as internship experiences during my undergraduate program.
-                      I'm ready for delving deeper into the tech area to learn more stuff, get more hands on practice or experiences, and make impactful contributions to the tech field.
-                      I'm currently looking for any internship opportunity in related CS fields for the summer 2025.
-                      Please feel free to contact me if you think I would be a potential fit!</p>
+                    <p>I'm a new graduate software engineer focused on full-stack development. I earned my Master of Science in Computer Science (MSCS) from Northeastern University and my Bachelor of Science in Computer Science from Oregon State University. I build product features end-to-end, from UI/UX design and responsive frontends (React, JavaScript/TypeScript) to Python backend services and database design (PostgreSQL, MySQL, MongoDB). I am strong at turning stakeholders&apos; requirements into shippable systems with clear documentation and practical evaluation plans, and I iterate quickly while collaborating in cross-functional teams.</p>
                     <div className="resume-connect">
                       {/* <button className='resume-btn'><a href={resume} download className='r-btn'>Download My Resume</a></button> */}
                       <button className='connect-me-btn'><a href="#footer" className='connect-btn'>Connect with Me</a></button>

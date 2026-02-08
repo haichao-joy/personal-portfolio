@@ -3,6 +3,54 @@ import './Projects.css';
 function Projects() {
     const projects = [
         {
+            image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhbHRoY2FyZSUyMGRhdGF8ZW58MHx8MHx8fDA%3D",
+            date: "Sept 2025 - Dec 2025",
+            title: "Early Detection of Alzheimer’s Disease from Cognitive Assessments",
+            techstack: "Python, Machine Learning, EDA, Kaggle Clinical Data",
+            description: "Designed and implemented machine-learning models to predict early-stage Alzheimer’s disease (Healthy vs MCI vs AD) using structured cognitive-assessment and behavioral data (MMSE, ADL, IADL)\nConducted extensive EDA, feature scaling, and validation on a 2K-record clinical dataset (Kaggle 2024); applied Logistic Regression, Random Forest, and baseline classifiers to evaluate predictive performance\nIdentified MMSE and ADL as top discriminative features through correlation and feature-importance analysis, revealing interpretable clinical markers\nAddressed potential data-leakage issues and proposed model-generalization strategies, including K-Fold cross-validation, SMOTE, and hyperparameter tuning\nSynthesized insights from eight peer-reviewed studies (2021-2025) to situate the work within current AI-for-health literature, emphasizing explainability and accessibility in early screening",
+            url: "",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXVkaW8lMjByZWNvcmRpbmd8ZW58MHx8MHx8fDA%3D",
+            date: "Sept 2025 - Present",
+            title: "Co-creative Audio Storytelling System (Ongoing)",
+            techstack: "Flutter, FastAPI, PostgreSQL, FFmpeg",
+            description: "Designed and implemented a cross-platform audio-based co-creative storytelling system enabling multiple users to record and assemble shared narratives for fostering social connection\nBuilt a Flutter-based mobile client (iOS and Android) supporting real-time audio recording, local processing, and push notifications\nDeveloped a FastAPI plus PostgreSQL backend for session management, story coordination, audio upload, and server-side merging of user recordings through an FFmpeg-based pipeline\nImplemented an asynchronous multi-user session model supporting dynamic participant assignment, turn-taking, and automated story synthesis\nDeployed a functional MVP prototype validating end-to-end user flow (record to merge to notify to playback) across platforms\nPrepared for future behavioral studies examining how collaborative voice creation impacts emotional connectedness and belonging",
+            url: "",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+            date: "Mar 2025 - Present",
+            title: "Care Package Website (Ongoing)",
+            techstack: "VitePress, Three.js, JavaScript, UI/UX",
+            description: "Developing a website using VitePress for care package delivery, focusing on a user-friendly interface and aesthetic design\nImplementing interactive 3D animations with Three.js, including scroll-triggered effects and animated objects, to enhance visual appeal and user engagement\nIntegrating web store features by developing product pages and checkout functionalities to support smooth interaction and seamless transaction flows\nCollaborating with team members to ensure the website design aligns with branding and UX goals\nContinuously improving UI/UX through feedback-driven development and ongoing testing",
+            url: "",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXVkaW98ZW58MHx8MHx8fDA%3D",
+            date: "Apr - May 2025",
+            title: "Verbal Tic Detection App Prototype",
+            techstack: "JavaScript, Vosk.js, Web Audio API",
+            description: "Designed and implemented a browser-based app prototype for audio recording, processing, real-time detection, and real-time feedback of verbal filler words using Vosk.js and the Web Audio API\nDeveloped an audio processing pipeline with silence trimming, amplitude normalization, and low-latency buffering to improve speech-capture accuracy and responsiveness\nIntegrated speech recognition and real-time audible feedback to promote speaker awareness of filler-word frequency during speaking\nAdded user controls, including a toggle to enable or disable detection and audio processing, supporting flexible testing and usability studies\nDiagnosed and resolved microphone-capture and latency issues across desktop and mobile browsers, optimizing for reliable real-time speech feedback",
+            url: "",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWxnb3JpdGhtfGVufDB8fDB8fHww",
+            date: "Apr 2025",
+            title: "A* Search Algorithm Analysis",
+            techstack: "Python, Jupyter Notebook, A* Search, Heuristics",
+            description: "Analyzed A* performance for optimal pathfinding, highlighting efficiency in real-time applications\nConducted correctness analysis by proving optimality through heuristic admissibility and consistency\nPerformed time and memory complexity analysis to identify factors impacting computational efficiency\nImplemented the algorithm using Python in Jupyter Notebook to simulate pathfinding across varied graph structures\nConducted experiments to evaluate and compare heuristic functions, providing insights into pathfinding effectiveness in different scenarios",
+            url: "",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGF0YWJhc2V8ZW58MHx8MHx8fDA%3D",
+            date: "Apr 2025",
+            title: "Multiplayer Online Role Playing Game Database",
+            techstack: "ER Modeling, MySQL, SQL, JSP, JDBC",
+            description: "Designed a logical data model through an ER diagram to represent entities and relationships while adhering to normalization standards\nImplemented a physical database model in MySQL to store and manage game data\nEnabled CRUD operations for managing entities, including searching, creating, updating, and deleting data\nEnsured data integrity with primary and foreign key constraints while optimizing SQL queries for efficient data retrieval\nDeveloped a JSP-based web frontend using JSP and JDBC for seamless database interaction",
+            url: "",
+        },
+        {
             image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             date: "Apr 2024 - May 2024",
             title: "Blog Website",
@@ -25,6 +73,14 @@ function Projects() {
             techstack: "Figma, HTML/CSS, React, Node.js, Express.js, Axios API",
             description: "Collaborated with a cross-functional team to build and integrate user-friendly web application serving as a digital hub for a publication, implemented features including advanced search functionality, comprehensive listings, and seamless navigation",
             url: "https://github.com/haichao-joy/Forms-of-Migration-Website",
+        },
+        {
+            image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am9iJTIwc2VhcmNofGVufDB8fDB8fHww",
+            date: "Nov 2022 - Dec 2022",
+            title: "Job Search App Interface Design",
+            techstack: "Figma, HCI, Inclusive Design, UX Research",
+            description: "Collaborated with a team in an HCI inclusive design course to design and prototype a job search app for a limited-English-proficient minority group using Figma wireframes and prototypes at multiple fidelity levels\nCreated persona models and use cases to design and improve user interaction flow and visual layout\nConducted surveys, interviews, heuristic evaluations, and usability tests to enhance user experience, reducing user task time by 20% based on feedback",
+            url: "",
         },
         {
             image: "https://images.unsplash.com/photo-1667984390535-6d03cff0b11a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGNsb3VkJTIwbW9uaXRvcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -99,7 +155,13 @@ function Projects() {
                                             <div className='project-title'>{project.title}</div>
                                             <div className='project-date'>{project.date}</div>
                                             <div className='project-tech-stack'>{project.techstack}</div>
-                                            <div className='project-description'>{project.description}</div>
+                                            <div className='project-description'>
+                                                <ul className='project-description-list'>
+                                                    {project.description.split('\n').map((point, idx) => (
+                                                        point.trim() && <li key={idx}>{point.trim()}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
                                             <div className='project-extend'><a href={project.url} target="_blank" rel="noopener noreferrer">Explore More</a></div>
                                         </div>
                                     </div>
